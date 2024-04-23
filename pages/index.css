@@ -255,3 +255,90 @@
 .reservation__form {
   max-width: 385px;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.menu__title {
+  max-width: 845px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.menu__subtitle {
+  max-width: 845px;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 1180px;
+}
+
+.menu__cards-top {
+  display: flex;
+  justify-self: center;
+  gap: 100px;
+}
+
+.menu__cards-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.card__content {
+  font-family: "Noto Serif";
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 2px solid #838383;
+}
