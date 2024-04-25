@@ -1,0 +1,38 @@
+.card {
+  width: 540px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.card__content {
+  font-family: "Noto Serif";
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 2px solid #838383;
+}
